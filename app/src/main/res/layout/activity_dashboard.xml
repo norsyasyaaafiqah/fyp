@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity"
+    android:background="#FF5722"
+    android:padding="20dp">
+
+
+    <TextView
+        android:text="@string/where_you_want_to_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/where_you_want_to_go"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#fbfefd"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_below="@+id/where_you_want_to_go"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/from"
+        android:hint="@string/from"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#fbfefd"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_below="@+id/from"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/to"
+        android:hint="@string/to"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#fbfefd"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_below="@+id/to"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/date"
+        android:hint="@string/date"
+        android:gravity="center"/>
+
+    <Button
+        android:text="@string/search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/search_bus" />
+
+
+
+
+
+</RelativeLayout>
