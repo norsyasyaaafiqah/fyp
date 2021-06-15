@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userprofile"
+    android:background="#FF5722"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Username"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/editTextUserName"
+            android:text="Username"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+
+        <TextView
+            android:text="User email"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/editTextUserEmail"
+            android:text="User email"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+
+        <TextView
+            android:text="Phone number"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/editTextPhoneNumber"
+            android:text="Phone number"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
